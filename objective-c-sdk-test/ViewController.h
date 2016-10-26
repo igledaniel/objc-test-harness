@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@import TangramMap;
+@import Pelias;
 
-@interface ViewController : UIViewController
+@interface ViewController : TGMapViewController
 
 
 @end
