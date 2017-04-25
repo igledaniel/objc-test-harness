@@ -6,10 +6,7 @@ target 'objective-c-sdk-test' do
    use_frameworks!
 
   # Pods for objective-c-sdk-test
-  
-  pod 'ios-sdk', :path => '/Users/Smollinger/coding/git_projects/ios-sdk/ios-sdk.podspec'
-  pod 'Pelias', :git => 'https://github.com/pelias/pelias-ios-sdk.git', :branch => 'master'
-  pod 'OnTheRoad', :git => 'https://github.com/mapzen/on-the-road_ios.git', :branch => 'master'
-  pod 'Tangram-es', :git => 'https://github.com/tangrams/ios-framework.git', :branch => 'universalSupport'
+  #pod 'Mapzen-ios-sdk', :git => 'https://github.com/mapzen/ios.git', :branch => 'master', :submodules => true  
+   pod 'Mapzen-ios-sdk', :path => '../ios-sdk'
 
 end

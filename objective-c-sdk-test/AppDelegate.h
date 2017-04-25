@@ -7,8 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <TangramMap/TangramMap.h>
-@import Pelias;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

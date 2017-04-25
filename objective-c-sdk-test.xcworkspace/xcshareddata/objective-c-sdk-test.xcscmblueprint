@@ -1,0 +1,65 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4F0101FE0C100AB45E614087BE74C866E3F87A1D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CE66A96D3FF3BC98C8A988D415C9B64482AA3CF8" : 9223372036854775807,
+    "AF9EFC9725261F468C46F6F5FC76DCE653F68E30" : 9223372036854775807,
+    "17E71FFE92E080E05FD813C4E8E2974518AD9584" : 9223372036854775807,
+    "55895E0ECEBA9B2CFD8D06C642BFA05C8AA50105" : 9223372036854775807,
+    "ABEBCADF528DFAA23CD373DF3E597D47BB5660C2" : 9223372036854775807,
+    "4F0101FE0C100AB45E614087BE74C866E3F87A1D" : 9223372036854775807,
+    "BBDA5A20AD8873BE33564783C9AF146518693944" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "05311467-0B2C-45E2-B487-2C03F691A963",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CE66A96D3FF3BC98C8A988D415C9B64482AA3CF8" : "ios-sdk\/housestyles.bundle\/zinc\/",
+    "AF9EFC9725261F468C46F6F5FC76DCE653F68E30" : "ios-sdk\/housestyles.bundle\/refill\/",
+    "17E71FFE92E080E05FD813C4E8E2974518AD9584" : "ios-sdk\/housestyles.bundle\/cinnabar\/",
+    "55895E0ECEBA9B2CFD8D06C642BFA05C8AA50105" : "ios-sdk\/housestyles.bundle\/walkabout\/",
+    "ABEBCADF528DFAA23CD373DF3E597D47BB5660C2" : "ios-sdk\/housestyles.bundle\/bubble-wrap\/",
+    "4F0101FE0C100AB45E614087BE74C866E3F87A1D" : "objc-test-harness\/",
+    "BBDA5A20AD8873BE33564783C9AF146518693944" : "ios-sdk\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "objective-c-sdk-test",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "objective-c-sdk-test.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tangrams\/cinnabar-style-more-labels.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "17E71FFE92E080E05FD813C4E8E2974518AD9584"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mapzen\/objc-test-harness.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4F0101FE0C100AB45E614087BE74C866E3F87A1D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tangrams\/walkabout-style-more-labels.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "55895E0ECEBA9B2CFD8D06C642BFA05C8AA50105"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tangrams\/bubble-wrap.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ABEBCADF528DFAA23CD373DF3E597D47BB5660C2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tangrams\/refill-style-more-labels.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AF9EFC9725261F468C46F6F5FC76DCE653F68E30"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mapzen\/ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BBDA5A20AD8873BE33564783C9AF146518693944"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tangrams\/zinc-style-more-labels.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CE66A96D3FF3BC98C8A988D415C9B64482AA3CF8"
+    }
+  ]
+}

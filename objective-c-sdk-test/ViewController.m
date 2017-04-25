@@ -7,25 +7,39 @@
 //
 
 #import "ViewController.h"
+@import Mapzen_ios_sdk;
 
 @interface ViewController ()
-
+@property (nonatomic, strong) MZMapViewController *map;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  // Do any additional setup after loading the view, typically from a nib
-  PeliasOperation *operation = [[PeliasOperation alloc] init];
-  [PeliasSear]
+  [self setupMap];
+
+  [_map loadStyleAsync:MapStyleWalkabout error:nil onStyleLoaded:^(enum MapStyle style) {
+    BOOL showingCurrLoc = [_map showCurrentLocation:true];
+    if (showingCurrLoc) {
+      [_map showFindMeButon:true];
+    }
+  }];
 }
 
 
-- (void)didReceiveMemoryWarning {
-  [super didReceiveMemoryWarning];
-  // Dispose of any resources that can be recreated.
-}
+- (void)setupMap {
+  _map = [[MZMapViewController alloc] init];
+  [self addChildViewController:_map];
 
+  [self.view addSubview:_map.view];
+  _map.view.translatesAutoresizingMaskIntoConstraints = false;
+  [_map.view.leftAnchor constraintEqualToAnchor:self.view.leftAnchor].active = true;
+  [_map.view.rightAnchor constraintEqualToAnchor:self.view.rightAnchor].active = true;
+  [_map.view.topAnchor constraintEqualToAnchor:self.view.topAnchor].active = true;
+  [_map.view.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor].active = true;
+
+  [_map didMoveToParentViewController:self];
+}
 
 @end
